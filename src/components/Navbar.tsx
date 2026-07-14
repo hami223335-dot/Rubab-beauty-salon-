@@ -67,10 +67,10 @@ export default function Navbar({ activeView, setActiveView, scrollToSection }: N
             </div>
             <div>
               <span className="font-serif text-xl font-bold tracking-[0.2em] text-gold group-hover:brightness-110 transition-colors uppercase">
-                Blazon
+                Jaynaan
               </span>
               <span className="block text-[8px] tracking-[0.4em] text-white/60 font-mono uppercase">
-                Islamabad
+                Rawalpindi
               </span>
             </div>
           </div>
@@ -108,11 +108,11 @@ export default function Navbar({ activeView, setActiveView, scrollToSection }: N
           {/* CTAs */}
           <div className="hidden sm:flex items-center gap-4">
             <a
-              href="tel:03216331122"
+              href="tel:03000000000"
               className="flex items-center gap-2 text-zinc-400 hover:text-gold font-mono text-xs transition-colors py-2"
             >
               <Phone className="w-3.5 h-3.5 text-gold" />
-              <span>0321-6331122</span>
+              <span>0300-0000000</span>
             </a>
             <button
               onClick={() => {
@@ -161,11 +161,11 @@ export default function Navbar({ activeView, setActiveView, scrollToSection }: N
               <div className="h-[1px] bg-zinc-800/80 my-2" />
               <div className="flex flex-col gap-3 px-4 pt-2">
                 <a
-                  href="tel:03216331122"
+                  href="tel:03000000000"
                   className="flex items-center gap-2 text-zinc-300 hover:text-gold font-mono text-sm"
                 >
                   <Phone className="w-4 h-4 text-gold" />
-                  <span>0321-6331122</span>
+                  <span>0300-0000000</span>
                 </a>
                 <button
                   onClick={() => {

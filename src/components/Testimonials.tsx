@@ -9,8 +9,8 @@ export default function Testimonials() {
       id: "rev-1",
       name: "Sarmad Ali",
       rating: 5,
-      text: "The absolute best luxury salon in Islamabad. The Signature Grooming Package was spectacular—from the Dermalogica facial to the precision hair cut. The staff is exceptionally professional.",
-      service: "Signature Grooming Package",
+      text: "The absolute best luxury beauty salon in Rawalpindi. The Bridal Package was spectacular—from the Janssen facial to the precision hair cut. My stylist was exceptionally professional.",
+      service: "Bridal Package",
       date: "June 2026",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80"
     },

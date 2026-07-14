@@ -186,7 +186,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
               <div className="flex flex-col items-center gap-1.5">
                 <Scissors className="w-8 h-8 md:w-12 md:h-12 text-[#D4AF37] transform -rotate-45" />
                 <span className="font-serif text-[11px] md:text-xs tracking-[0.3em] text-[#D4AF37] uppercase font-bold">
-                  Blazon
+                  Jaynaan
                 </span>
               </div>
             </motion.div>
@@ -204,7 +204,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
                   transition={{ duration: 0.7, ease: "easeOut" }}
                   className="font-serif text-lg md:text-2xl text-white tracking-[0.2em] text-center uppercase"
                 >
-                  Welcome To <span className="text-[#D4AF37] font-semibold">Blazon Salon</span>
+                  Welcome To <span className="text-[#D4AF37] font-semibold">Jaynaan Salon</span>
                 </motion.h2>
               ) : (
                 <motion.h2

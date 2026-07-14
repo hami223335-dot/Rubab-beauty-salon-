@@ -2,78 +2,83 @@ import { PackageDetail } from "../types";
 
 export const PACKAGES_DATA: PackageDetail[] = [
   {
-    name: "Signature Grooming Package",
-    price: "Rs. 30,000",
-    oldPrice: "Rs. 33,000",
-    badge: "Most Premium Experience",
-    description: "The ultimate royal treatment spanning pre-wedding wellness and multiple day-of-event styling modules.",
+    name: "Bridal Package",
+    price: "Rs. 35,000",
+    oldPrice: "Rs. 40,000",
+    badge: "Royal Signature Look",
+    description: "An exquisite all-inclusive bundle featuring our elite HD bridal makeup, luxury skin therapies, and intricate signature hair styling.",
     preWedding: [
-      "Dermalogica Resurfacing Facial",
-      "Whitening Manicure & Pedicure",
-      "Full Hands & Neck Polish",
-      "Ultrasonic Black/White Heads Removal",
-      "Hair Shine Enhance OR Hair Dyeing",
-      "Whitening Botanical Face Polisher",
-      "Exfoliating Scrub & Micro Cleansing",
-      "Multi-Active Herbal Toning Session",
-      "Intense Brightening Gold Mask",
-      "Master Artisan Beard Trim / Shave",
-      "Besoke Couture Hair Cut"
+      "Elite Janssen Whitening Facial",
+      "Olaplex Hair Bond Restoration",
+      "Royal Whitening Manicure",
+      "Royal Whitening Pedicure",
+      "Luminous Hand & Feet Gold Polish",
+      "Organic Skin Polish & Dermabrasion",
+      "Detailed Makeup Style Consultation"
     ],
     eventDay: [
-      "Deep Cleansing & Hydrating Rub",
-      "Diamond Dust Exfoliation Therapy",
-      "Nourishing Collagen Face Mask",
-      "Event Styling Touch-Ups",
-      "Royal Sandalwood Shave",
-      "Tea Tree Revitalizing Shampoo",
-      "Argan Oil Deep Condition",
-      "Event Hair-Do & Fix"
+      "Premium HD Bridal Makeup",
+      "Masterpiece Dupatta & Jewelry Setting",
+      "Royal Hair Bun & Styling Setup",
+      "Nail Art & Lash Extension setup",
+      "Long-Lasting Matte Fixation Therapy"
     ]
   },
   {
-    name: "Premium Plus Package",
-    price: "Rs. 24,000",
-    oldPrice: "Rs. 26,000",
-    badge: "Elite Care & Styling",
-    description: "German & French-engineered skincare treatments matched with precision grooming for a pristine photogenic look.",
+    name: "Party Makeup Package",
+    price: "Rs. 15,000",
+    oldPrice: "Rs. 18,000",
+    badge: "Glamour & Spotlight",
+    description: "Perfect for Walima guests, engagements, and high-fashion elite evening parties.",
     preWedding: [
-      "Thalgo Whitening Marine Facial",
-      "Whitening Manicure & Pedicure",
-      "Full Hands & Neck Polish",
-      "Ultrasonic Black/White Heads Removal",
-      "Hair Shine Enhance / Cellular Treat",
-      "Luxury Hair Dye Option",
-      "Whitening Skin Glow Polisher",
-      "Skinsol Oil Control Sebum Treatment",
-      "Deep Cleansing & Facial Toning",
-      "Premium Brightening Skin Mask",
-      "Signature Beard Trim / Shave",
-      "Creative Modern Hair Cut"
+      "Deep Hydrating Marine Cleansing",
+      "Shampoo & Royal Hair Spa",
+      "Eye Glow Lifting Treatment",
+      "Quick Hand Hydration Care"
     ],
     eventDay: [
-      "Available for Mehndi / Barat / Walima",
-      "Rate for Event Styling: Rs. 22,000",
-      "Inclusions: Cleansing, Exfoliation, Face Mask, Touch Ups, Shave, Shampoo, Deep Condition, Hair Do"
+      "Ultra-HD Party Makeup Styling",
+      "Eyelash application and styling",
+      "Curls, blowout, or premium braids",
+      "Sleek contouring and blush-on work"
     ]
   },
   {
-    name: "Wedding Day Services",
-    price: "Rs. 4,500",
-    oldPrice: "Rs. 5,000",
-    badge: "Essential Day-Of Polish",
-    description: "Quick, targeted skincare renewal and hair architecture to ensure absolute perfection on your wedding stage.",
+    name: "Hair Care Package",
+    price: "Rs. 18,000",
+    oldPrice: "Rs. 22,000",
+    badge: "Couture Hair Revival",
+    description: "Advanced structural restoration treatments for frizzy, colored, or damaged hair locks.",
     preWedding: [
-      "Skin Cleansing Therapy",
-      "Refreshing Facial Exfoliation",
-      "Hydrating Organic Face Mask",
-      "Precision Event Touch-Ups",
-      "Premium Beard Shave / Frame Styling"
+      "Royal Silk Keratin Treatment",
+      "Cellular Olaplex Repair Therapy",
+      "Premium Botanical Hair Spa",
+      "Signature Couture Hair Cut"
     ],
     eventDay: [
-      "Tea Tree Deep Shampoo Wash",
-      "Argan Oil Deep Conditioning",
-      "Creative Event Hair-Do Styling"
+      "Tea Tree Nourishing Scalp Therapy",
+      "Lustrous Mirror Shine Gloss Boost",
+      "Anti-Humidity Protective Sealing",
+      "Luxury Anti-Frizz Blow-Dry Finish"
+    ]
+  },
+  {
+    name: "Skin Care Package",
+    price: "Rs. 12,000",
+    oldPrice: "Rs. 15,000",
+    badge: "Luminous Cellular Glow",
+    description: "Clinical-grade dermatological facials to revitalize tired skin, fade spots, and lock in radiance.",
+    preWedding: [
+      "Thalgo Marine Hydration Facial",
+      "Janssen Biological Peeling Session",
+      "Diamond Microdermabrasion Treatment",
+      "Deep Ultrasonic Pore Purification"
+    ],
+    eventDay: [
+      "Premium 24K Gold Dust Mask",
+      "Collagen Activation Massage",
+      "Hyaluronic Acid Mist Hydration",
+      "Skin Barrier Defense Shielding"
     ]
   }
 ];

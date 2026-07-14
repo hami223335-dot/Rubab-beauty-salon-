@@ -70,7 +70,7 @@ export default function FacialBenefits() {
             Elite Skincare <span className="font-serif italic text-gold">Benefits</span>
           </h2>
           <p className="text-xs sm:text-sm text-zinc-400 font-sans tracking-wide leading-relaxed font-light">
-            We do not compromise. Blazon Salon partners with international labs to deliver tested skin results that last.
+            We do not compromise. Jaynaan Beauty Salon partners with international labs to deliver tested skin results that last.
           </p>
         </div>
 

@@ -58,7 +58,7 @@ export default function AdvancedServicesCatalog({ onBackToHome, scrollToSection 
         {/* Dynamic Page Header */}
         <div className="max-w-3xl mb-16">
           <span className="font-mono text-xs tracking-[0.3em] uppercase text-gold font-semibold block mb-3 animate-pulse">
-            Blazon Salon Couture Catalog
+            Jaynaan Salon Couture Catalog
           </span>
           <h1 className="text-4xl sm:text-6xl font-sans font-light tracking-tight text-white mb-6 leading-tight">
             The Advanced <br />
@@ -189,7 +189,7 @@ export default function AdvancedServicesCatalog({ onBackToHome, scrollToSection 
             Starting rates are subject to change based on custom specifications and VIP hair architecture requests.
           </p>
           <p>
-            Immediate consultations are available via telephone at <a href="tel:03216331122" className="text-gold hover:underline">0321-6331122</a>
+            Immediate consultations are available via telephone at <a href="tel:03000000000" className="text-gold hover:underline">0300-0000000</a>
           </p>
         </div>
 

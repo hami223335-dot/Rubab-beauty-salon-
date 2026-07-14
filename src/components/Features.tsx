@@ -25,7 +25,7 @@ interface FeatureDetail {
 
 export default function Features() {
   const businessFeatures: FeatureDetail[] = [
-    { name: "Wheelchair Accessible Entrance", desc: "Easy access ramp at Bizzon Plaza", icon: Accessibility },
+    { name: "Wheelchair Accessible Entrance", desc: "Easy access ramp at our main entrance", icon: Accessibility },
     { name: "Wheelchair Accessible Parking", desc: "Dedicated spaces in lower lot", icon: Car },
     { name: "Onsite Premium Services", desc: "Fully equipped luxury stations", icon: Scissors },
     { name: "Beverages Available", desc: "Complimentary green teas & coffees", icon: Coffee },

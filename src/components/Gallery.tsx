@@ -98,7 +98,7 @@ export default function Gallery() {
             Visual Portfolios
           </span>
           <h2 className="text-3xl sm:text-5xl font-sans font-light tracking-tight text-white mb-4">
-            The Blazon <span className="font-serif italic text-gold">Gallery</span>
+            The Jaynaan <span className="font-serif italic text-gold">Gallery</span>
           </h2>
           <div className="w-20 h-[1px] bg-gradient-to-r from-transparent via-gold to-transparent mx-auto my-4" />
           <p className="text-xs sm:text-sm text-zinc-400 font-sans tracking-wide leading-relaxed font-light">

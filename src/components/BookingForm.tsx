@@ -64,7 +64,7 @@ export default function BookingForm({ selectedPackageFromParent, onClearSelected
       // Validate Pakistani phone numbers (e.g. 03xxxxxxxxx or +923xxxxxxxxx)
       const phoneRegex = /^((\+92)|(0092)|(92)|(0))?3[0-9]{9}$/;
       if (!phoneRegex.test(form.phone.replace(/[\s-]/g, ""))) {
-        newErrors.phone = "Please provide a valid Pakistani mobile number (e.g., 0321-6331122)";
+        newErrors.phone = "Please provide a valid Pakistani mobile number (e.g., 0300-0000000)";
       }
     }
 
@@ -109,7 +109,7 @@ export default function BookingForm({ selectedPackageFromParent, onClearSelected
 
     // Simulate luxury API response with a loader
     setTimeout(() => {
-      const refCode = "BLZ-" + Math.floor(100000 + Math.random() * 900000);
+      const refCode = "JAY-" + Math.floor(100000 + Math.random() * 900000);
       setBookingRefNum(refCode);
       setIsSubmitting(false);
       setSubmitSuccess(true);
@@ -122,7 +122,7 @@ export default function BookingForm({ selectedPackageFromParent, onClearSelected
         const selectedPkgName = form.package !== "none" ? form.package : "None";
 
         const textMessage = 
-`👑 *BLAZON SALON ISLAMABAD RESERVATION* 👑
+`👑 *JAYNAAN BEAUTY SALON RAWALPINDI RESERVATION* 👑
 Reference: *${refCode}*
 
 *Guest Name:* ${form.name}
@@ -137,7 +137,7 @@ Reference: *${refCode}*
 _Please confirm my luxury VIP booking slot._`;
 
         const encodedMsg = encodeURIComponent(textMessage);
-        window.open(`https://wa.me/923216331122?text=${encodedMsg}`, "_blank");
+        window.open(`https://wa.me/923000000000?text=${encodedMsg}`, "_blank");
       }
     }, 1800);
   };
@@ -208,7 +208,7 @@ _Please confirm my luxury VIP booking slot._`;
                       name="phone"
                       value={form.phone}
                       onChange={handleChange}
-                      placeholder="e.g. 03216331122"
+                      placeholder="e.g. 03000000000"
                       className={`w-full bg-black border ${
                         errors.phone ? "border-red-500" : "border-white/5 focus:border-gold"
                       } rounded-sm px-4 py-3.5 text-sm text-white placeholder-zinc-600 focus:outline-none transition-colors`}
@@ -370,7 +370,7 @@ _Please confirm my luxury VIP booking slot._`;
                         }`} />
                       </div>
                       <span className="text-xs text-zinc-300 font-sans tracking-wide group-hover:text-white transition-colors select-none">
-                        Send Booking details via WhatsApp to 0321-6331122
+                        Send Booking details via WhatsApp to 0300-0000000
                       </span>
                     </label>
                   </div>
@@ -432,7 +432,7 @@ _Please confirm my luxury VIP booking slot._`;
                     Your luxury experience awaits
                   </h3>
                   <p className="text-xs text-zinc-400 leading-relaxed font-light">
-                    An confirmation code has been drafted. Please present this reference code at our F-11 Markaz reception desk.
+                    An confirmation code has been drafted. Please present this reference code at our Rawalpindi Branch reception desk.
                   </p>
                 </div>
 
@@ -472,7 +472,7 @@ _Please confirm my luxury VIP booking slot._`;
                   </button>
                   {form.useWhatsApp && (
                     <p className="text-[10px] text-zinc-500 font-light">
-                      *Redirected to WhatsApp. If the conversation did not launch automatically, send reference code to 0321-6331122.
+                      *Redirected to WhatsApp. If the conversation did not launch automatically, send reference code to 0300-0000000.
                     </p>
                   )}
                 </div>

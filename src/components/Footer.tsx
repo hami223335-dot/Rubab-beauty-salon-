@@ -36,16 +36,16 @@ export default function Footer({ setActiveView, scrollToSection }: FooterProps) 
               </div>
               <div>
                 <span className="font-sans text-xl font-bold tracking-[0.2em] text-white uppercase block">
-                  Blazon
+                  Jaynaan
                 </span>
                 <span className="block text-[8px] tracking-[0.4em] text-gold/80 font-mono uppercase">
-                  Islamabad
+                  Rawalpindi
                 </span>
               </div>
             </div>
 
             <p className="text-xs sm:text-sm text-zinc-400 font-sans tracking-wide leading-relaxed font-light max-w-sm">
-              &ldquo;Be The Best Version Of Yourself&rdquo;. Blazon Salon provides premium, clinical-grade hair couture, scientific skincare facials, and meticulously detailed wedding day services in Islamabad.
+              &ldquo;Be The Best Version Of Yourself&rdquo;. Jaynaan Beauty Salon provides premium beauty, hair, makeup and grooming services with expert care and modern techniques in Rawalpindi.
             </p>
 
             <div className="flex items-center gap-4">
@@ -104,20 +104,20 @@ export default function Footer({ setActiveView, scrollToSection }: FooterProps) 
               <li className="flex gap-3 items-start">
                 <MapPin className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" />
                 <span>
-                  1st Floor, Bizzon Plaza, F-11 Markaz,<br />
-                  Islamabad, Pakistan 44000
+                  Plot 23, Main Boulevard, Phase 7,<br />
+                  Bahria Town, Rawalpindi, Pakistan 46000
                 </span>
               </li>
               <li className="flex gap-3 items-center">
                 <Phone className="w-4 h-4 text-gold flex-shrink-0" />
-                <a href="tel:03216331122" className="hover:text-gold transition-colors font-mono text-sm font-semibold">
-                  0321-6331122
+                <a href="tel:03000000000" className="hover:text-gold transition-colors font-mono text-sm font-semibold">
+                  0300-0000000
                 </a>
               </li>
               <li className="flex gap-3 items-center">
                 <Mail className="w-4 h-4 text-gold flex-shrink-0" />
-                <a href="mailto:info@blazonsalon.com" className="hover:text-gold transition-colors">
-                  concierge@blazonsalon.com
+                <a href="mailto:concierge@jaynaansalon.com" className="hover:text-gold transition-colors">
+                  concierge@jaynaansalon.com
                 </a>
               </li>
             </ul>
@@ -128,7 +128,7 @@ export default function Footer({ setActiveView, scrollToSection }: FooterProps) 
         {/* Footer bottom */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] font-mono uppercase tracking-widest text-zinc-500">
           <p>
-            © {new Date().getFullYear()} BLAZON SALON ISLAMABAD. ALL RIGHTS RESERVED.
+            © {new Date().getFullYear()} JAYNAAN BEAUTY SALON RAWALPINDI. ALL RIGHTS RESERVED.
           </p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-gold transition-colors">Safety Standard</a>

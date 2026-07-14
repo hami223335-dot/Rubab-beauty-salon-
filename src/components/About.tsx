@@ -44,7 +44,7 @@ export default function About() {
               className="space-y-4"
             >
               <span className="font-mono text-xs tracking-[0.3em] uppercase text-gold font-semibold block">
-                The Legacy of Blazon
+                The Legacy of Jaynaan
               </span>
               <h2 className="text-3xl sm:text-5xl font-sans font-light tracking-tight text-white leading-tight">
                 Crafting Elite Confidence <br />
@@ -62,7 +62,7 @@ export default function About() {
               transition={{ duration: 0.8, delay: 0.1 }}
               className="text-sm sm:text-base text-zinc-300 font-sans leading-relaxed font-light"
             >
-              Blazon Salon provides premium grooming experiences with professional stylists, modern techniques and luxury services designed for confidence and style. Centered in F-11 Markaz, Islamabad, we cater to distinguished clients who appreciate precision haircuts, scientific skincare facials, and meticulously detailed wedding day services.
+              Jaynaan Beauty Salon provides professional beauty, hair, makeup and grooming services with expert care, modern techniques and a premium customer experience.
             </motion.p>
 
             {/* In-depth Core Values */}
@@ -101,7 +101,7 @@ export default function About() {
             >
               <img
                 src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80"
-                alt="Blazon Luxury Salon Interior"
+                alt="Jaynaan Luxury Salon Interior"
                 className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 hover:scale-105 transition-all duration-1000 ease-out"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent pointer-events-none" />
@@ -112,7 +112,7 @@ export default function About() {
                   &ldquo;Confidence begins here.&rdquo;
                 </p>
                 <p className="font-mono text-[9px] tracking-[0.2em] text-zinc-400 uppercase">
-                  Blazon Islamabad
+                  Jaynaan Rawalpindi
                 </p>
               </div>
             </motion.div>

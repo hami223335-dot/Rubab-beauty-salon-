@@ -104,9 +104,9 @@ export default function Hero({ scrollToSection }: HeroProps) {
 
   const handleWhatsAppClick = () => {
     const text = encodeURIComponent(
-      "Hello Blazon Salon, I would like to book a luxury service appointment at your F-11 Markaz Islamabad branch."
+      "Hello Jaynaan Beauty Salon, I would like to book a luxury service appointment at your Rawalpindi branch."
     );
-    window.open(`https://wa.me/923216331122?text=${text}`, "_blank");
+    window.open(`https://wa.me/923000000000?text=${text}`, "_blank");
   };
 
   return (
@@ -149,7 +149,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
         >
           <Sparkles className="w-3.5 h-3.5 text-gold animate-pulse" />
           <span className="font-mono text-[9px] sm:text-[10px] tracking-[0.3em] uppercase text-gold">
-            F-11 Markaz, Islamabad
+            Bahria Town Phase 7, Rawalpindi
           </span>
         </motion.div>
 
@@ -161,7 +161,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
           className="mb-2"
         >
           <h2 className="text-sm sm:text-lg font-mono tracking-[0.5em] text-gold/80 uppercase">
-            BLAZON SALON
+            JAYNAAN BEAUTY SALON
           </h2>
         </motion.div>
 
@@ -172,9 +172,9 @@ export default function Hero({ scrollToSection }: HeroProps) {
           transition={{ duration: 1, delay: 0.4 }}
           className="text-4xl sm:text-6xl md:text-7xl font-sans font-light tracking-tight text-white mb-6 leading-tight"
         >
-          Be The Best <br className="sm:hidden" />
+          Enhance Your <br className="sm:hidden" />
           <span className="font-serif italic text-gradient bg-gradient-to-r from-amber-100 via-gold to-gold-hover bg-clip-text text-transparent font-normal">
-            Version Of Yourself
+            Beauty
           </span>
         </motion.h1>
 
@@ -185,7 +185,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
           transition={{ duration: 1, delay: 0.6 }}
           className="max-w-xl text-xs sm:text-base md:text-lg text-zinc-300 font-sans tracking-wide mb-10 leading-relaxed font-light"
         >
-          Premium Hair, Skin & Grooming Experience In Islamabad. Where global techniques match customized service design.
+          Enhance Your Beauty With Premium Salon Experience in Rawalpindi. Where global techniques match customized service design.
         </motion.p>
 
         {/* Action CTAs */}
@@ -206,7 +206,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
 
           {/* Call Button */}
           <a
-            href="tel:03216331122"
+            href="tel:03000000000"
             className="w-full sm:w-auto border border-white/20 hover:border-gold bg-black/40 hover:bg-black/60 text-white hover:text-gold font-sans text-xs sm:text-sm font-bold tracking-widest px-8 py-4 rounded-sm transition-all duration-300 uppercase flex items-center justify-center gap-2.5 backdrop-blur-md"
           >
             <Phone className="w-4 h-4" />

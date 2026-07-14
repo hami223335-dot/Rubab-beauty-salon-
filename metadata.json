@@ -1,6 +1,6 @@
 {
-  "name": "Blazon Salon Islamabad",
-  "description": "An ultra-premium luxury website for Blazon Salon Islamabad, featuring exquisite black & gold themes, elite hair, skin, and grooming services, packages, and a professional booking system.",
+  "name": "Jaynaan Beauty Salon Rawalpindi",
+  "description": "Jaynaan Beauty Salon offers premium hair, makeup, beauty and grooming services in Rawalpindi.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
